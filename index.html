@@ -20,8 +20,8 @@
     <title>Práctica del DOM</title>
   </head>
   <body>
-    <div class="product-card">
-      <div class="product-image" id="productImage">
+    <section class="product-card">
+      <div class="product-image" id="productImage" alt="outside of Merecedes Benz car, available in red, gray and black colors">
         <!-- <img src="./public/img/graycar.jpg" alt="cars" /> -->
       </div>
       <div class="product-description">
@@ -54,7 +54,7 @@
           </span>
         </p>
         <p>Escoge un color:</p>
-        <div class="colors-price">
+        <aside class="colors-price">
           <div class="colors">
             <span class="red" id="redColor"></span>
             <span class="gray" id="grayColor"></span>
@@ -64,7 +64,7 @@
             <h2 class="new-price">$134,450</h2>
             <h4 class="old-price"><s>$140,500</s></h4>
           </div>
-        </div>
+        </aside>
         <button id="button">
           <span style="font-size: 1em; color: white">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -77,7 +77,7 @@
           >
         </button>
       </div>
-    </div>
-    <script src="./src/js/app.js"></script>
+    </section>
+    <script type="modules" src="./src/js/app.js"></script>
   </body>
 </html>
