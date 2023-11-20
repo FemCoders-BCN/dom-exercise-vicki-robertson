@@ -1,3 +1,7 @@
+## Screenshot de los tests aprobados
+Está en la carpeta
+dom-exercise-vicki-robertson/Screenshot-tests-aprobados.png
+
 # Dom exercise
 
 Este repositorio nos servirá como base para coonocer los diferente tipos de Dom que tenemos en javascript y construir de tal forma un proyecto que podría ser real. También, a parte de la explicación recibida en clase, las coder deberán realizar una refactorización del código que tenga después de la explicación y la realización de los test de cada función.
