@@ -1,4 +1,4 @@
-# DESCRIPCIÓN DEL PROYECTO
+# Descripción del proyecto
 
 Este repositorio incluye una página de producto, de una tienda online que vende coches. La página de producto nos permita elegir entre tres colores de coche y se modifica los colores del botón de compra y las imagenes de los coches según cuál está elegido.
 
@@ -10,7 +10,7 @@ Este repositorio incluye una página de producto, de una tienda online que vende
 - Vitest [vitest](https://vitest.dev/guide/)
 
 
-# TESTING
+# Testing
 
 ## Screenshot de los tests aprobados
 
