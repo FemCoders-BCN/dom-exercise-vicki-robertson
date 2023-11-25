@@ -1,25 +1,52 @@
+# DESCRIPCIÓN DEL PROYECTO
+
+Este repositorio incluye una página de producto, de una tienda online que vende coches. La página de producto nos permita elegir entre tres colores de coche y se modifica los colores del botón de compra y las imagenes de los coches según cuál está elegido.
+
+
+## Tecnologías empleadas
+
+- Visual Studio Code - HTML, CSS, Javascript
+- Node.js
+- Vitest [vitest](https://vitest.dev/guide/)
+
+
+# TESTING
+
 ## Screenshot de los tests aprobados
-Está en la carpeta
-dom-exercise-vicki-robertson/Screenshot-tests-aprobados.png
 
-# Dom exercise
+![Vista previa del proyecto](./public/img/screenshot-tests-aprobados.png)]
 
-Este repositorio nos servirá como base para coonocer los diferente tipos de Dom que tenemos en javascript y construir de tal forma un proyecto que podría ser real. También, a parte de la explicación recibida en clase, las coder deberán realizar una refactorización del código que tenga después de la explicación y la realización de los test de cada función.
+## Proceso para realizar el testing:
 
-El proyecto ya esta realizado con la arquitectura adecuada para su funcionamiento.
+## 1. Clonar el repositorio en Github
+- Clonar el repositorio de Github a tu ordenador, escribiendo en una terminal: 
 
-## Requisitos para el funcionamiento actual
+```bash
+git clone https://github.com/FemCoders-BCN/dom-exercise-vicki-robertson.git
+```
+## 2. Instalar vitest
+- El testing se realiza usando vitest [vitest](https://vitest.dev/guide/)
 
-- Visual Studio Code
+- Primero es necesario tener instalado node.js. En caso de no tenerlo ya, se puede descargarlo en la página oficial de Node aquí [node.js](https://nodejs.org/en)
+- Seleciona la versión LTS. Si pide instalar 'tools' desmarca la casilla.
+- Una vez instalado, comprueba que se ha instalado bien escribiendo en una terminal:
 
-## Requisitos para realizar el testing
+```bash
+node --version
+```
+- Luego hay que navegar usando una terminal, hasta la carpeta donde tenga guardado la copia del repositoria 'dom-exercise-vicki-robertson'
+- Una vez allí se instala lo necesario para poder hacer el testing con el comando:
 
-- El testing se deberá de realizar en [vitest](https://vitest.dev/guide/)
-- Una vez instalado deberás poner en este **readme** (que deberás modificar), el proceso para que una persona que llegué al repositorio pueda hacer correr los test
+```bash
+npm install
+```
+## 3. Testing usando el comando npm test
+- Ahora se puede iniciar los tests y ver los resultados, escribiendo el siguiente comando en la terminal:
 
-## Requisitos del Readme
+```bash
+npm test
+```
 
-- DEBERÁ llevar una breve descripción del proyecto
-- DEBERÁ lleva las imágenes que muestren el proyecto
-- DEBERÁ llevar las tecnologías empleadas
-- DEBERÁ llevar como se debe hacer el proceso para instalar todo lo necesario para que se corran los test (instalar nodejs, hacer npm install  o npm i)
+
+
+
