@@ -1,5 +1,4 @@
-import {describe ,expect, it, beforeAll} from 'vitest'
-import {JSDOM} from 'jsdom'
+import {expect, it} from 'vitest'
 import { redColor, grayColor, blackColor } from "../src/js/app";
 
 
